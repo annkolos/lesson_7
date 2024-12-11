@@ -1,0 +1,16 @@
+#словари
+my_dict={'Ann':1992,'Alex':1993,'Zheka':1991}
+print(my_dict)
+print(my_dict['Ann'])
+print(my_dict.get('Pasha'))
+my_dict.update({'Dima':1995,'Kostik':1996})
+print(my_dict.get('Zheka'))
+my_dict.pop('Zheka')
+print(my_dict)
+#множества
+my_set={1,2,'Str','Brth',2,'Brth'}
+print(my_set)
+my_set.add(4)
+my_set.add(6)
+my_set.remove('Brth')
+print(my_set)
